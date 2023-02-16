@@ -78,14 +78,16 @@ nav a {
 	width: auto;
 	flex: 1 1 auto;
 	margin: 0px;
-	
 }
 
 nav a:active {
-	color:khaki;
-	background-color: white;
-	-webkit-text-stroke: 0.5px white;
+	color:transparent;
 	padding: 10px;
+	background-color: black;
+	background-image: url("images/bolt-2-white.jpg");
+	background-position: center;
+	background-size:contain;
+	background-repeat: no-repeat;
 }
 
 nav a:visited {
@@ -509,7 +511,7 @@ label {
 	padding: 22px 33px;
 	text-align: center;
 	text-transform: uppercase;
-	transition: 0.5s;
+	transition: 0.9s;
 	font-family: 'DeathStar VmWB';
 	font-size: 14pt;
 	letter-spacing: 3pt;
