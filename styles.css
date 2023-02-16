@@ -28,7 +28,7 @@ body {
 }
 
 #body-dictionary {
-	background: url("images/cosmos.jpg") fixed;
+	background: black url("images/cosmos.jpg") fixed;
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -42,7 +42,7 @@ body {
 }
 
 #body-contact {
-	background: darkslategray url("images/control-room.jpg") fixed;
+	background: black url("images/control-room.jpg") fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -59,20 +59,20 @@ nav {
     padding: 20px;
     height: auto;
     width: 100%;
-    
     font-size: 16pt;
     text-transform: uppercase;
     letter-spacing: 2pt;
-    font-family: 'DeathStar VmWB';
-    font-weight: lighter;
-	
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+	font-family: 'DeathStar VmWB';
+	font-weight: lighter;
+	-webkit-text-stroke: 0.5px black;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
 }
 
 nav a {
 	color:darkseagreen;
+	-webkit-text-stroke: 0.5px black;
 	text-decoration: none;
 	max-width: 300px;
 	min-width: 200px;
@@ -89,14 +89,10 @@ nav a:active {
 	background-position: center;
 	background-size:contain;
 	background-repeat: no-repeat;
-	transition: 0.5s;
 }
 
 nav a:visited {
 	color:darkseagreen;
-	text-decoration: none;
-	font-weight: lighter;
-	-webkit-text-stroke: 0.5px black;
 }
 
 nav a:hover {
@@ -513,7 +509,7 @@ label {
 	padding: 22px 33px;
 	text-align: center;
 	text-transform: uppercase;
-	transition: 0.9s;
+	transition: 1s;
 	font-family: 'DeathStar VmWB';
 	font-size: 14pt;
 	letter-spacing: 3pt;
