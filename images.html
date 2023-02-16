@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en"><!-- InstanceBegin template="/Templates/template-main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>HTML Images</title>
+<!-- InstanceEndEditable -->
+<meta name="author" content="WTAMU student">
+<meta name="description" content="HTML reference guide">
+<meta name="keywords" content="HTML, CSS, web design">
+<link href="../styles.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<!-- InstanceBeginEditable name="body-tag" -->
+<body>
+<!-- InstanceEndEditable -->
+	<nav>
+		<a href="../index.html">Homebase</a>
+		<a href="../dictionary.html">Dictionary</a>
+		<a href="../lab.html">Laboratory</a>
+		<a href="../contact.html">Mission Control</a>
+	</nav>
+	
+	<main>
+<!-- InstanceBeginEditable name="main" -->	
+		
+		<header><h1>How to Add Images to Your Website</h1></header>
+				<div class="flex-container">
+
+					<div class="div-manual">
+					<h2 id="manual-header">Controls</h2>
+
+						<div class="manual-buttons">
+								<a href="html-introduction.html">HTML 101</a>
+								<a href="getting-started.html">Blast off</a>
+								<a href="heading-tags.html">Headings</a>
+								<a href="text-tags.html">Text Tags</a>
+								<a href="images.html">Images</a>
+								<a href="iframes.html">Iframes</a>
+								<a href="video.html">Video</a>
+								<a href="audio.html">Audio</a>
+								<a href="comments.html">Comments</a>
+						</div>
+				</div>
+					
+					<div class="style-border-g">
+						<h2>HTML Image Element</h2>
+		
+							<p>The image element allows you to display images on a webpage.  The image element opening tag is: &lt;img&gt;.  The image element does not have a closing tag.</p>
+
+							<p>Below is a list of the most common image attributes:</p>
+
+								<ul class="attributes-list">
+									<li>Src=" "</li>
+										<p>Src is the main required attribute of the image element, and it provides the file path of the image source.  Src needs an equals sign followed by the file path location within quotes.</p>
+
+									<li>Alt=" "</li>
+										<p>The image element requires an 'alt' attribute for accessibility, which gives an alternate text description of the image for screen readers.  It is also the text that displays if the image fails to load.</p>
+
+									<li>Width=" " and Height=" "</li>
+										<p>Width and height are two other key attributes that define the size of the image displayed.  Width and height both need an equals sign followed by a pixel size value within quotes.</p>
+
+									<li>Title=" "</li>
+										<p>You can use the title attribute to set text that will display when the user's cursor hovers over the image.</p>
+
+									</ul>
+						
+							<br>
+							<h2>HTML Figure Elements</h2>
+						
+								
+								<ul class="center-list"><li>&lt;figure&gt; &lt;/figure&gt;</li>
+									<li>&lt;figcaption&gt; &lt;/figcaption&gt;</li>
+								</ul>
+						
+								<p>Figure and figure caption are not attributes of the image element.  However, they are elements very commonly used along with it.</p>
+						
+								<p>The &lt;figcaption&gt; tags are the only way to directly associate an image caption in HTML. And to use the figure caption element properly, the image and its caption should both be contained within the &lt;figure&gt; element tags.</p>
+						
+								<p>If you do not want to associate an image caption with your image, then there is no need to use the figure elements.</p>
+					
+					</div>
+
+					<div class="style-border-g">
+					  <h2>Image Example</h2>
+
+					  <p>Below is an example of HTML code for an image: </p>
+
+							  <div class="code-example">
+							      
+							        <p>&lt;figure&gt;</p>
+										<div class="code-example-indent">
+										<p>&lt;img<br>
+										alt="Planet Earth viewed from space"<br>
+										title="Planet Earth"<br>
+										width="300"<br> 
+										height ="300"<br>
+										src="../images/earth.jpg"<br>&gt;<br>
+										<br>
+										&lt;figcaption&gt;Home Sweet Home &lt;/figcaption&gt;
+										</p>
+										</div>
+								 <p>&lt;/figure&gt;</p>
+		
+							  </div>
+
+					  <p>It displays as follows ... </p>
+
+					  <figure>
+						<img
+										alt="Planet Earth viewed from space"
+										title="Planet Earth"
+										width="300" 
+										height ="300"
+										src="../images/earth.jpg">
+						<figcaption>Home Sweet Home</figcaption>
+					  </figure>
+							<br><br>
+					</div>
+
+					<div class="style-border-g">
+						<h2>Image Resize Calculator</h2>
+
+							<p>There are many excellent image resize calculators online that can help you adjust the size of your image without distorting the proportions.  
+
+							One such calculator, from 
+								<a href="https://scriptygoddess.com/resources/proportioncalc.htm" target="_blank">Scriptygoddess.com</a>, is embeded in an <a href="iframes.html" target="_blank">iframe</a> below:</p>
+		
+								<iframe class="iframe-border" width="500" height="700" src="https://scriptygoddess.com/resources/proportioncalc.htm"></iframe>
+						
+								<!--<div style="background-color:white;">
+								<iframe width="500" height="500" src="https://www.printsgicleeshop.com/image-resize-calculator/"></iframe>
+									</div>-->
+					</div>
+				</div>
+
+<!-- InstanceEndEditable -->
+	</main>
+	
+	<footer>
+  		<p>Buffs Lost in Cyberspace &copy; 2023</p>
+	</footer>	
+
+</body>
+<!-- InstanceEnd --></html>

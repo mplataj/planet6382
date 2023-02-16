@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en"><!-- InstanceBegin template="/Templates/template-main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Webpage Audio</title>
+<!-- InstanceEndEditable -->
+<meta name="author" content="WTAMU student">
+<meta name="description" content="HTML reference guide">
+<meta name="keywords" content="HTML, CSS, web design">
+<link href="../styles.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<!-- InstanceBeginEditable name="body-tag" -->
+<body>
+<!-- InstanceEndEditable -->
+	<nav>
+		<a href="../index.html">Homebase</a>
+		<a href="../dictionary.html">Dictionary</a>
+		<a href="../lab.html">Laboratory</a>
+		<a href="../contact.html">Mission Control</a>
+	</nav>
+	
+	<main>
+<!-- InstanceBeginEditable name="main" -->	
+		
+		<header><h1>How to Add Audio to Your Webpage</h1></header>
+		
+			<div class="flex-container">
+		
+				<div class="div-manual">
+					<h2 id="manual-header">Controls</h2>
+
+						<div class="manual-buttons">
+								<a href="html-introduction.html">HTML 101</a>
+								<a href="getting-started.html">Blast off</a>
+								<a href="heading-tags.html">Headings</a>
+								<a href="text-tags.html">Text Tags</a>
+								<a href="images.html">Images</a>
+								<a href="iframes.html">Iframes</a>
+								<a href="video.html">Video</a>
+								<a href="audio.html">Audio</a>
+								<a href="comments.html">Comments</a>
+						</div>
+				</div>
+				
+				<div class="style-border-g">
+					<h2>The HTML Audio Element</h2>
+
+						<p>There are multiple ways to add audio to your website.  The most straightforward way is to upload your audio file to your website and use the HTML &lt;audio&gt; &lt;/audio&gt; tags.</p>
+
+						<p>The audio element has many attributes which give you control over how it displays and plays.  Below is a list of the most common audio attributes:</p>
+
+						<ul class="attributes-list">
+							<li>Src= " "</li>
+								<p>Src is the only required attribute of the audio element, and it provides the file path of the audio source.  Src needs an equals sign followed by the file path location within quotes.</p>
+
+							<li>Controls</li>
+								<p>The controls attribute tells the browser to add it's default controls. The controls attribute does not need to be given a value.  The look of the control will vary depending on the browser used. It is necessary to use the controls attribute unless you are adding your own customized javascript controls.</p>
+
+							<li>Autoplay</li>
+								<p>The autoplay attribute tells the browser to automatically begin playing the audio as soon as it loads.  The autoplay attribute does not need to be given a value.</p>
+
+							<li>Loop</li>
+								<p>The loop attribute tells the browser to continually restart the audio when it reaches the end, until the user presses stop.  The loop attribute does not need to be given a value.</p>
+
+							</ul>
+				</div>
+			
+				<div class="style-border-g">
+					<h2>HTML Audio Example</h2>
+					
+						<p>Below is an example of HTML code for playing audio: </p>
+
+						  <div class="code-example">
+							<p>
+							&lt;audio<br>
+							src="../media/inconclusions.wav"<br>
+							controls<br>
+							loop<br>
+							&gt;<br>
+							<br>
+							&lt;p&gt;Text between the audio tags displays if your audio doesn't load.&lt;/p&gt;<br>
+							<br>
+							&lt;/audio&gt;<br>
+							</p>
+						  </div>
+
+						<p>It displays as follows ... </p>
+
+							<audio
+								src="../media/inconclusions.wav"
+								controls
+								loop>
+								<p>text between the audio tags displays if your audio doesn't load</p>
+							</audio>
+
+							<p>CREDIT:&nbsp;The audio sample is a digital distortion of an excerpt from the book <cite>Big Magic</cite> by Elizabeth Gilbert.</p>
+				</div>
+			
+				<div class="style-border-g">
+				<h2>Embed Audio Using an Iframe</h2>
+
+					<p>Popular music sharing sites, such as Soundcloud, will supply you with ready-made iframe code that you can copy paste into your webpage to display their music players.  Below is a Soundcloud song embedded using an iframe.</p>
+
+						<p>To review iframes <a href="iframes.html" target="_blank">click here</a>.</p>
+
+						<iframe width="400" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/698079433&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/thebirdsings" title="TheBirdSings" target="_blank" style="color: #cccccc; text-decoration: none;">TheBirdSings</a> · <a href="https://soundcloud.com/thebirdsings/the-way-knows-the-way-by-lyndsey-scott" title="The Way Knows the Way by Lyndsey Scott" target="_blank" style="color: #cccccc; text-decoration: none;">The Way Knows the Way by Lyndsey Scott</a></div>
+				</div>
+		</div>
+<!-- InstanceEndEditable -->
+	</main>
+	
+	<footer>
+  		<p>Buffs Lost in Cyberspace &copy; 2023</p>
+	</footer>	
+
+</body>
+<!-- InstanceEnd --></html>

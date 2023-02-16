@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Planet 6382</title>
+<!-- TemplateEndEditable -->
+<meta name="author" content="WTAMU student">
+<meta name="description" content="HTML reference guide">
+<meta name="keywords" content="HTML, CSS, web design">
+<link href="../styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<!-- TemplateBeginEditable name="body-tag" -->
+<body>
+<!-- TemplateEndEditable -->
+	<nav>
+		<a href="../index.html">Homebase</a>
+		<a href="../dictionary.html">Dictionary</a>
+		<a href="../lab.html">Laboratory</a>
+		<a href="../contact.html">Mission Control</a>
+	</nav>
+	
+	<main>
+<!-- TemplateBeginEditable name="main" -->
+		
+		<header><h1>Main Heading</h1></header>
+		
+		<div class="flex-container">
+		
+			<div class="style-border-g div-intro">
+
+				<h2>Intro Sub Heading</h2>
+				<p>The image element allows you to display images on a webpage.  The image element opening tag is: &lt;img&gt;.</p>
+
+				<p>Attributes list:</p>
+					<ul>
+						<li></li>
+					</ul>
+				</div>
+						
+				
+			<div class="style-border-g div-example">
+
+				<h2>Sub Heading Example</h2>
+
+					<p>Below is an example of HTML code for an image: </p>
+
+					  <div class="code-example">
+						&lt;img<br>
+						alt="Planet Earth viewed from space"<br>
+						width="300"<br> 
+						height ="300"<br>
+						src="../images/earth.jpg"&gt;
+					  </div>
+
+					<p>It displays as follows ... </p>
+
+						<img
+							alt="Planet Earth viewed from space"
+							width="300" 
+							height ="300"
+							src="../images/earth.jpg">
+					<br>
+				</div>
+			</div>
+		
+<!-- TemplateEndEditable -->
+	</main>
+	
+	<footer>
+  		<p>Buffs Lost in Cyberspace &copy; 2023</p>
+	</footer>	
+
+</body>
+</html>

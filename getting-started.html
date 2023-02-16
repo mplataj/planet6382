@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en"><!-- InstanceBegin template="/Templates/template-main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>HTML Webpage Set-up</title>
+<!-- InstanceEndEditable -->
+<meta name="author" content="WTAMU student">
+<meta name="description" content="HTML reference guide">
+<meta name="keywords" content="HTML, CSS, web design">
+<link href="../styles.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<!-- InstanceBeginEditable name="body-tag" -->
+<body>
+<!-- InstanceEndEditable -->
+	<nav>
+		<a href="../index.html">Homebase</a>
+		<a href="../dictionary.html">Dictionary</a>
+		<a href="../lab.html">Laboratory</a>
+		<a href="../contact.html">Mission Control</a>
+	</nav>
+	
+	<main>
+<!-- InstanceBeginEditable name="main" -->	
+		
+		<header><h1>Key HTML Elements for Starting a Web Page</h1></header>
+			<div class="flex-container">
+		
+				<div class="div-manual">
+					<h2 id="manual-header">Controls</h2>
+
+						<div class="manual-buttons">
+								<a href="html-introduction.html">HTML 101</a>
+								<a href="getting-started.html">Blast off</a>
+								<a href="heading-tags.html">Headings</a>
+								<a href="text-tags.html">Text Tags</a>
+								<a href="images.html">Images</a>
+								<a href="iframes.html">Iframe</a>
+								<a href="video.html">Video</a>
+								<a href="audio.html">Audio</a>
+								<a href="comments.html">Comments</a>
+						</div>
+				</div>
+				
+				<div class="style-border-g">
+					<h2>What is a HTML element tag?</h2>
+						<p>HTML element tags are the opening and closing sequence of characters for each HTML element that define what command is being communicated and carried out. The element tag creates a container which defines where the command instructions begin and end.</p>
+
+						<p>Every HTML element has an opening tag which begins with the "&lt;" symbol and ends with the "&gt;" symbol.  Most, but not all, HTML elements also require a closing tag.</p>
+					
+						<p>You can learn more about HTML element tags at <a href="https://www.w3schools.com/html/html_elements.asp" target="_blank">W3schools.com</a>. And to see an complete list of all the HTML elements <a href="https://www.w3schools.com/TAGS/default.asp" target="_blank">click here</a>.</p>
+						<br>
+						<img alt="diagram of HTML element" title="diagram of HTML element" src="../images/html-element-parts.png" width="400px" height="200px">
+						
+					</div>
+					
+					<div class="style-border-g">
+					<h2>Getting Started</h2>
+					
+						<p>There are certain HTML elements which every webpage needs to have, and other elements which are strongly reccommended.</p>
+							
+						<p>Below is a list of the essential elements needed to start your HTML webpage:</p>  
+
+						<ul class="attributes-list">
+							<li>&lt;!doctype html&gt;</li>
+								<p>Every HTML webpage <em>is required</em> to have a document type element which tells the browser the webpage is written in HTML.</p>
+
+							<li>&lt;html lang="en"&gt;</li>
+								<p>It is highly reccommended to also tell the browser what human language is being primarily used on the webpage.  This helps search engines and browsers.</p>
+
+							<li>&lt;head&gt; &lt;/head&gt;</li>
+								<p>After the doctype and language type, it is best practice to begin the  &lt;head&gt; element.  Not to be confused witht the heading tags, the head element is used to record information about the webpage that is <em>not</em> viewed on the website itself.  This includes the document title, stylesheet reference, and any other meta data.</p>
+
+							<li>&lt;title&gt; &lt;/title&gt;</li>
+								<p>Every HTML webpage <em>is required</em> to have a title.  The title name will appear on the tab in the browser window. The title tags are included somewhere within the &lt;head&gt; tags.</p>
+
+							<li>&lt;link href="../styles.css" rel="stylesheet" type="text/css"&gt;</li>
+								<p>If your webpage has a separate CSS file, which most do, then you need to link the stylesheet somewhere within the head element tags.</p> 
+
+							<li>&lt;style&gt; &lt;/style&gt;</li>
+								<p>If you are including your CSS styling within the same webpage, rather than a separate file, then the CSS code will be contained within the &lt;style&gt; &lt;/style&gt; tags, which are contained somewhere within the head element section.</p>
+							
+								<li>&lt;meta&gt;</li>
+								<p>There are many types of meta data that can be included in the head section to give behind-the-scenes reference information that helps browsers, search engines, screen readers, and other interesrted parties best use your webpage. NOTE: Meta elements do not have closing tags.<br><br>
+								See a list of important meta attributes in the next window.</p>
+							</ul>
+								
+							<p>See the reference examples  in the following windows for a webpage set-up that uses them all correctly.</p>
+				
+				</div>
+				
+				<div class="style-border-g">
+					<h2>Meta Data Tags</h2>
+					
+						<p>There are many types of meta data that can be included in the head section to give behind-the-scenes reference information that helps browsers, search engines, screen readers, and other interesrted parties best use your webpage.</p> 
+						
+						<p>This is the meta data tag: &lt;meta&gt;</p>
+
+					<p>NOTE: Meta elements do not have closing tags.</p> 
+					<p>Some of the most commonly used meta attributes are listed below:</p>
+
+
+						<ul class="attributes-list">
+							<li>&lt;meta charset="UTF-8"&gt;</li>
+								<p>This tells the browser what character set is being used.</p>
+
+							<li>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</li>
+								<p>This adjusts your webpage dimensions so that it will look best on different device viewports.</p>
+
+							<li>&lt;meta name="author" content="Web Author Name"&gt;</li>
+								<p>This cites the author of the webpage.</p>
+
+							<li>&lt;meta name="description" content="Add a description of your webpage."&gt;</li>
+								<p>Here you can give a description of your webpage contents, of up to 155 characters in length, that helps search engines.</p>
+
+							<li>&lt;meta name="keywords" content="keyword1, keyword2, keyword3"&gt;</li>
+								<p>Here you can choose keywords for search engine optimization.</p>
+						</ul>
+				</div>
+				
+				<div class="style-border-g">
+					<h2>Webpage Head Example</h2>
+
+						<p>Below is an example of standard practice HTML code commonly found at the top of a webpage: </p>
+
+							<div class="code-example">
+							  
+							    <p>
+							      &lt;!doctype html&gt;<br>
+							      &lt;html lang="en"&gt;<br>
+									&lt;head&gt;<br></p>
+									
+							  <div class="code-example-indent">
+									<p>
+									  &lt;meta charset="UTF-8"&gt;<br>
+									  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br>
+									  <br>
+									  &lt;title&gt;Planet 6382&lt;/title&gt;<br>
+									  &lt;meta name="author" content="Author Name"&gt;<br>
+									  &lt;meta name="description" content="HTML and CSS reference guide"&gt;<br>						
+									  &lt;meta name="keywords" content="HTML, CSS, web design"&gt;<br>
+									  <br>
+									  &lt;link href="../styles.css" rel="stylesheet" type="text/css"&gt;<br>
+									</p>
+									</div>
+								
+							     <p>&lt;/head&gt;</p>
+						      </div>
+
+				</div>
+				
+				<div class="style-border-g">
+				  <h2>Body Elements Example</h2>  
+				  <p>After the head section comes the &lt;body&gt; &lt;/body&gt; tags.  The body of the webpage includes all of the <em>visible</em> content. It is usually divided into three standard parts: the navigation, main, and footer sections.</p> 
+
+				  <p>After the body tag closes, the opening HTML element tag also gets closed, ending the webpage. See an example below:</p>
+
+							<div class="code-example">
+							  <p>&lt;body&gt;</p>
+								
+								  <div class="code-example-indent">
+									<p>&lt;nav&gt;<br>
+									  navigation links go here<br>
+									  &lt;/nav&gt;<br>
+									  <br>
+									  &lt;main&gt;<br>
+									  page content goes here<br>
+									  &lt;/main&gt;<br>
+									  <br>
+									  &lt;footer&gt;<br>
+									  footer information goes here<br>
+									  &lt;/footer&gt;<br>
+									  </p>
+								  </div>
+
+								<p>
+									&lt;/body&gt;<br>
+									&lt;/html&gt;
+								</p>
+							</div>	
+			  </div>
+			</div>
+		
+<!-- InstanceEndEditable -->
+	</main>
+	
+	<footer>
+  		<p>Buffs Lost in Cyberspace &copy; 2023</p>
+	</footer>	
+
+</body>
+<!-- InstanceEnd --></html>
