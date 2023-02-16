@@ -99,6 +99,7 @@ nav a:active {
 	background-position: center;
 	background-size:contain;
 	background-repeat: no-repeat;
+	transition: 100ms;
 }
 
 nav a:visited {
