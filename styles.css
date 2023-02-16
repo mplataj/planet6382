@@ -9,7 +9,7 @@ body {
 	padding: 0px;
 	background-color: black;
 	color: antiquewhite;
-	font-family: 'Segoe', 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', 'Verdana', 'sans-serif';
+	font-family:'Segoe', 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', 'Verdana', 'sans-serif';
 	
 /*** BACKGROUND IMAGES *************/
 	
@@ -56,7 +56,7 @@ nav {
     background: black;
     border: 0px;
     margin: 0px;
-    padding: 10px;
+    padding: 20px;
     height: auto;
     width: 100%;
     font-size: 16pt;
@@ -65,20 +65,20 @@ nav {
 	font-family: 'DeathStar VmWB';
 	font-weight: lighter;
 	-webkit-text-stroke: 0.5px black;
-	
-}
-
-nav li {
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 15px;
-    display: inline;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
 }
 
 nav a {
 	color:darkseagreen;
 	text-decoration: none;
+	max-width: 300px;
+	min-width: 200px;
+	width: auto;
+	flex: 1 1 auto;
+	margin: 0px;
+	
 }
 
 nav a:active {
@@ -135,7 +135,8 @@ a:active {
 header {
     text-align: center;
     color:whitesmoke;
-    font-family: "DeathStar VmWB";
+    font-family: "DeathStar VmWB", "arial black", sans-serif;
+	text-transform: uppercase;
     letter-spacing: 4pt;
     font-size: 20pt;
     text-shadow: -7px 5px 5px salmon;
@@ -202,7 +203,10 @@ ol li {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 30px auto;
+	margin: 0px auto;
+	padding: 0px;
+	min-width: 500px;
+	max-width: 100%;
 }
 
 .style-border-g {
@@ -211,10 +215,10 @@ ol li {
 	border-radius: 100px;
 	text-align: center;
 	padding: 10px 30px 50px 30px;
-	margin: 10px 30px 30px 30px;
-	max-width: 500px;
-	min-width: 300px;
-	min-height: 500px;
+	margin: 20px;
+	width: 400px;
+	max-width: 600px;
+	flex: 1 0 auto;
 }
 
 .style-border-g p{
@@ -226,8 +230,10 @@ ol li {
 
 /* wider div window used for index and html 101 */
 .div-mission { 
-	max-width: 800px;
+	/*max-width: 800px;
+	min-width: 300px; */
 	min-width: 300px;
+	max-width: 800px;
 }
 
 /*** list box styling ***/
@@ -301,6 +307,12 @@ iframe, img, video {
 	background-color:antiquewhite;
 }
 
+iframe {
+	min-width: 350px;
+	max-width: 500px;
+	width: 100%;
+}
+
 /*** CONTROLS PANEL *******************/
 
 .div-manual {
@@ -309,10 +321,12 @@ iframe, img, video {
 	border-radius: 100px;
 	text-align: center;
 	padding: 10px 30px 50px 30px;
-	margin: 10px 30px 30px 30px;
+	margin: 20px;
 	width: 150px;
 	height: 550px;
-	float:left;
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: auto;
 }
 
 #manual-header {
