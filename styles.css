@@ -500,6 +500,7 @@ label {
 	height: auto;
 	margin: 33px auto;
 	margin-top: 60px;
+	transition: 1s;
 }
 
 .transmit-button a{
@@ -528,6 +529,7 @@ label {
 	text-shadow: 0px 0px 10px rgba(0,0,0,0.6);
 	background-color: salmon;
 	border:thin outset lightsalmon;
+	transition: 1s;
 }
 
 /*** 404 ERROR PAGE*************/
