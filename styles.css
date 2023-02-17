@@ -132,13 +132,16 @@ main a {
 	text-decoration: none;
 }
 
-a:hover {
-	color:khaki;
+a:active {
+	color:whitesmoke;
 }
 
-a:active {
+a:visited {
+	color:darkseagreen;
+}
+
+a:hover {
 	color:khaki;
-	background-color: white;
 }
 
 /*** headings ***/
@@ -473,12 +476,13 @@ fieldset {
 	max-width: 700px;
 }
 
-fieldset legend, p, label {
+fieldset legend {
 	text-align: center;
 }
 
 fieldset p {
 	padding: 0 40px;
+	text-align: center;
 }
 
 legend {
@@ -534,10 +538,11 @@ label {
 	border-radius: 50px;
 	background-color: rgba(0,0,0,0.5);
 	border:thin outset khaki;
+	transition: 2s;
 }
 
 .transmit-button a:hover {
-	color:whitesmoke;
+	color: whitesmoke;
 	-webkit-text-stroke: 1.0px lightsalmon;
 	text-shadow: 0px 0px 10px rgba(0,0,0,0.6);
 	background-color: salmon;
