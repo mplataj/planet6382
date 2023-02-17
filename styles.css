@@ -399,12 +399,13 @@ iframe {
 
 /*** DICTIONARY *************/
 
-#body-dictionary p {
+#top  {
 	text-align: center;
 }
 
 #alpha-links, #dictionary {
 	margin: 0 auto;
+	text-align: center;
 }
 
 #alpha-links td {
