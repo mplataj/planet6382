@@ -121,7 +121,7 @@ main {
 p {
 	color: antiquewhite;
 	text-align: left;
-	font-size: 14pt;
+	font-size: 13pt;
 	margin: 15px auto;
 }
 
@@ -184,7 +184,7 @@ li {
 	text-align: left;
 	padding: 10px;
 	color: antiquewhite;
-	font-size: 14pt;
+	font-size: 13pt;
 }
 
 ul li {
@@ -567,8 +567,8 @@ label {
 blockquote p {
 	text-align: center;
 	font-weight: normal;
-	font-size: 16pt;
-	color:antiquewhite;
+	font-size: 14pt;
+	color:rgba(252,210,165,1.00);
 }
 
 /*** SCROLLBAR ************************************/
