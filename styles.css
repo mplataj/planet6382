@@ -156,10 +156,6 @@ header {
     text-shadow: -7px 5px 5px salmon;
 }
 
-#heading-tag-sizes h1 {
-	color: salmon;
-}
-
 h2, h3, h4, h5, h6 {
 	color:salmon;
 }
@@ -176,6 +172,26 @@ h2 {
 h3 {
 	font-size: 18pt;
 }
+
+#heading-tag-sizes li {
+	padding: 0pt;
+	margin-top: 40px;
+}
+
+#heading-tag-sizes h1 {
+	color: salmon;
+}
+
+#heading-tag-sizes h2 {
+	font-size: 20pt;
+	font-weight: bolder;
+	text-transform: inherit;
+	font-family: "Segoe", "Segoe UI", "DejaVu Sans", "Trebuchet MS", "Verdana", "sans-serif";
+	text-align: left;
+	padding: 0px;
+	letter-spacing: 0pt;
+}
+
 
 /*** list styling ***/
 
