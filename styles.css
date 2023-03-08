@@ -519,6 +519,10 @@ label {
 	width: 130px;
 }
 
+textarea {
+	padding: 7px;
+}
+
 .transmit-button {
 	width: auto;
 	height: auto;
